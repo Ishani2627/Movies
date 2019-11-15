@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Enriqueta';
+  src: url('./assets/fonts/Enriqueta-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Enriqueta';
+  src: url('./assets/fonts/Enriqueta-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1d193f;
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  letter-spacing: 0.4px;
+}
+
+.full-screen-form {
+  height: calc(100vh - 75px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+
+[hidden] {
+  display: none;
+}
+
+.title {
+  color: inherit;
+  font-family: 'Enriqueta', serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.youtube-player iframe {
+  height: 80vh;
+  width: 80vw;
+}
